@@ -12,6 +12,7 @@
 		ADACC7B02B30C6A900486971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADACC7AF2B30C6A900486971 /* Assets.xcassets */; };
 		ADACC7B32B30C6A900486971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADACC7B12B30C6A900486971 /* LaunchScreen.storyboard */; };
 		ADACC7BF2B30C97600486971 /* TrafficLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC7BE2B30C97600486971 /* TrafficLightController.swift */; };
+		ADACC7C32B31040F00486971 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC7C22B31040F00486971 /* TrafficLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ADACC7B22B30C6A900486971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADACC7B42B30C6A900486971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADACC7BE2B30C97600486971 /* TrafficLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightController.swift; sourceTree = "<group>"; };
+		ADACC7C22B31040F00486971 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				ADACC7BB2B30C8B600486971 /* Application */,
+				ADACC7C42B31BC2800486971 /* Views */,
 				ADACC7BD2B30C91900486971 /* Controllers */,
 				ADACC7BA2B30C84300486971 /* Resources */,
 				ADACC7BC2B30C8D800486971 /* SupportingFiles */,
@@ -94,6 +97,14 @@
 				ADACC7BE2B30C97600486971 /* TrafficLightController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADACC7C42B31BC2800486971 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADACC7C22B31040F00486971 /* TrafficLightView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				ADACC7BF2B30C97600486971 /* TrafficLightController.swift in Sources */,
 				ADACC7A72B30C6A800486971 /* AppDelegate.swift in Sources */,
+				ADACC7C32B31040F00486971 /* TrafficLightView.swift in Sources */,
 				ADACC7A92B30C6A800486971 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

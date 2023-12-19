@@ -9,10 +9,10 @@ import UIKit
 
 final class TrafficLightController: UIViewController {
     
+    private let trafficView = TrafficLightView()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
+    override func loadView() {
+        super.loadView()
+        view = trafficView
     }
-    
 }
